@@ -5,8 +5,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: bernardo.acron@gmail.com
-    password: wscx ldas tcrf oflr
+    username: 
+    password: 
     protocol: smtp
     properties:
       mail:
@@ -27,7 +27,7 @@ spring:
 
 envio:
   email:
-    remetente: bernardo.acron@gmail.com
+    remetente: 
     nomeRemetente: 'O Peregrino'
 
 server:
