@@ -1,0 +1,34 @@
+spring:
+  application:
+    name:
+      - notificador
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: bernardo.acron@gmail.com
+    password: wscx ldas tcrf oflr
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          socketFactory:
+            port: 465
+            class: javax.net.ssl.SSLSocketFactory
+            fallback: false
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+
+  thymeleaf:
+    enable: true
+
+envio:
+  email:
+    remetente: bernardo.acron@gmail.com
+    nomeRemetente: 'O Peregrino'
+
+server:
+  port: 8083
